@@ -126,7 +126,7 @@ function Contact() {
         <div className="mx-auto max-w-2xl lg:text-center">
           <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">Contact Us</h2>
           <p className="mt-2 text-lg leading-8 text-foreground/80">
-            We'd love to hear from you.
+            We&apos;d love to hear from you.
           </p>
         </div>
         <form action="#" method="POST" className="mx-auto mt-16 max-w-xl sm:mt-20">
@@ -193,7 +193,7 @@ function Contact() {
               type="submit"
               className="block w-full rounded-md bg-foreground px-3.5 py-2.5 text-center text-sm font-semibold text-background shadow-sm hover:bg-foreground/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
-              Let's talk
+              Let&apos;s talk
             </button>
           </div>
         </form>
@@ -220,7 +220,6 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col">
       <Header />
-      {/* @ts-expect-error Server Component */}
       <ProjectsList />
       <About />
       <Bio />
